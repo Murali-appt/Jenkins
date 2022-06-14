@@ -29,5 +29,8 @@ pipeline {
 		failure {
 			echo 'i run when you fail it'
 		}
+		changed {
+			echo 'i will run when u change'
+		}
 	}
 }
