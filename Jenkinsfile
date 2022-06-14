@@ -1,6 +1,6 @@
 pipeline {
     // agent any 
-	agent { docker { image 'maven:3.8.5-eclipse-temurin-8-alpine'}}
+	agent { docker { image 'maven' } }
 	stages {
 		stage('Build') {
 			steps {
